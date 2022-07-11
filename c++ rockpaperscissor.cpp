@@ -1,6 +1,5 @@
 #include<iostream>
-#include<stdlib.h>
-#include<iomanip>
+#include<stdlib.h>  
 #include<time.h>
 
 using namespace std;
@@ -54,13 +53,13 @@ int main() {
 
         cout<<"\nScore : "<<endl<<"User Score = "<<userScore<<endl<<"Comp Score = "<<compScore<<endl<<endl;
 
-        if((userScore == 2) && (compScore == 0)) {               //this to test
+        if((userScore == 2) && (compScore == 0)) {               
             break;
         }
-        else if((userScore == 0) && (compScore == 2)) {          //this to test
+        else if((userScore == 0) && (compScore == 2)) {       
             break;
         }
-        else {                                                    //this to test
+        else {                                                
             continue;
         }
     }
